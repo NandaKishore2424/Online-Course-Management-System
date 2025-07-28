@@ -1,4 +1,4 @@
-# 🎓 Online Course Management System – OOP Mini Project
+#  Online Course Management System – OOP Mini Project
 
 This project is a simulation of an **Online Course Management System** built using **Object-Oriented Programming (OOP)** principles.
 
@@ -6,7 +6,7 @@ It's designed as a mini-interview task to demonstrate skills in abstraction, inh
 
 ---
 
-## ✅ Objective
+##  Objective
 
 To design and implement a role-based system where:
 - **Instructors** can create courses and assignments and grade student work.
@@ -15,7 +15,7 @@ To design and implement a role-based system where:
 
 ---
 
-## 🧠 UML Class Diagram
+##  UML Class Diagram
 
 The UML diagram below was designed using PlantUML and shows the full structure of the system, including:
 
@@ -26,16 +26,15 @@ The UML diagram below was designed using PlantUML and shows the full structure o
 - Public/private access specifiers
 - Method overriding (`getRole()`)
 
-<img width="1241" height="1087" alt="image" src="https://github.com/user-attachments/assets/a3252b36-aa66-4fa8-aa9e-f5ae890e9612" />
 
 
 ---
 
-## 💻 Code Overview (JavaScript)
+##  Code Overview (JavaScript)
 
 The system is implemented in **JavaScript** using ES6 classes.
 
-### 🔧 Classes & Responsibilities:
+###  Classes & Responsibilities:
 | Class       | Responsibility                                   |
 |-------------|--------------------------------------------------|
 | `User`      | Abstract base class with common fields & methods |
@@ -45,7 +44,7 @@ The system is implemented in **JavaScript** using ES6 classes.
 | `Assignment`| Tracks submissions and grades                    |
 | `Grade`     | Stores scores and feedback                       |
 
-### ✨ Key Features:
+###  Key Features:
 - Method overriding via `getRole()` (Polymorphism)
 - Encapsulated fields using class methods
 - Associations via arrays/maps (e.g., enrolledCourses, submissions)
@@ -54,7 +53,7 @@ The system is implemented in **JavaScript** using ES6 classes.
 
 ---
 
-## 🧪 Demo Flow
+##  Demo Flow
 
 ```javascript
 1. Instructor logs in and creates a course
