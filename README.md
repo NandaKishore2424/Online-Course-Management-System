@@ -62,6 +62,7 @@ The system is implemented in **JavaScript** using ES6 classes.
 3. Student logs in and enrolls in the course
 4. Student submits the assignment
 5. Instructor grades the assignment
+```
 
 ## OOP Principles Used
 
