@@ -62,3 +62,27 @@ The system is implemented in **JavaScript** using ES6 classes.
 3. Student logs in and enrolls in the course
 4. Student submits the assignment
 5. Instructor grades the assignment
+
+## OOP Principles Used
+
+### Abstraction
+Each class exposes only necessary functionality like login(), enroll(), or gradeAssignment() while hiding internal logic.
+
+### Encapsulation
+Fields are private (prefixed with _) and accessed through class methods to protect data integrity.
+
+### Inheritance
+Student and Instructor inherit from the abstract User class, allowing reuse of common behavior.
+
+### Polymorphism
+Both Student and Instructor override the getRole() method to return their specific role.
+
+### SOLID Principles
+S – Single Responsibility: Every class has only one purpose.
+
+O – Open/Closed: The system can be extended (e.g., adding a TA or Admin class) without modifying existing code.
+
+L – Liskov Substitution: Anywhere a User is expected, Student or Instructor can be used.
+
+(Interface Segregation and Dependency Inversion are not directly applicable in this JavaScript model, but the design leans toward them in spirit.)
+
